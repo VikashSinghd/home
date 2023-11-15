@@ -12,7 +12,7 @@
     background-position: center;
 }
 .navbar{
-    width: 85%;
+    width: 80%;
     margin:auto;
     padding: 35px 0;
     display: flex;
@@ -21,8 +21,8 @@
 }
 
 .logo{
-    width: 120px;
-    cursor: pointer;
+    width: 70px;
+    cursor: progress;
     border-radius: 50%;
 }
 
@@ -35,22 +35,24 @@
 
 .navbar ul li a{
     text-decoration: none;
-    color:black;
+    color:rgb(51, 189, 92);
     text-transform: uppercase;
+    font-family: cursive;
+    font-size: larger;
 }
 
 .navbar ul li::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #009688;
+    background: #3dbdb2;
     position:absolute;
     left: 0;
     bottom: -10px;
 }
 .navbar ul li:hover::after{
     width: 100%;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .content{
@@ -58,7 +60,7 @@
      position: absolute;
      top:50%;
      transform: translateY(-50%);
-     color: #fff;
+     color: rgb(21, 255, 0);
      text-align: center;
 }
  .content h1{
@@ -77,17 +79,18 @@
     text-align: center;
     margin: 20px 10px;
     border-radius: 25px;
-    font-weight: bold;
+    font-family: cursive;
+    font-size: larger;
     border: 2px solid #009688;
     background: transparent;
-    color:black;
+    color:rgb(172, 160, 160);
     cursor: pointer;
     position: relative;
     overflow: hidden;
 
  }
   span{
-    background: burlywood;
+    background: rgb(194, 142, 74);
     height: 100%;
     width: 100%;
     border-radius: 25px;
@@ -95,7 +98,7 @@
     left: 0;
     bottom: 0;
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.9s;
      }
 
 
@@ -103,7 +106,6 @@
     width:100%;
   }
   button:hover{
-    border:none;
+    background-color: rgb(50, 66, 61);
 
   }
-  
