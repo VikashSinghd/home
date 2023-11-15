@@ -58,7 +58,7 @@
      position: absolute;
      top:50%;
      transform: translateY(-50%);
-     color: blue;
+     color: #fff;
      text-align: center;
 }
  .content h1{
